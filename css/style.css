@@ -13,20 +13,30 @@
 /* barra titolo */
 
 header {
-    height: 200px;
+    height: 400px;
     background-color: red;
+    position: relative;
+}
+
+.banner {
+    width: 90%;
+    height: 90%;
+    background-color: blue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
 }
 
 /* centro pagina */
 
 .container {
-    height: 500px;
-    margin: 15px;
+    margin: 10px;
 }
 
 aside {
     width: 25%;
-    height: 200px;
+    height: 800px;
     background-color: lightgrey;
     float: left;
 }
@@ -38,9 +48,31 @@ main {
     float: left;
 }
 
+.scheda {
+    height: 30%;
+    background-color: grey;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+/* terza colonna */
+
+
+
 /* footer */
 
 footer {
     height: 200px;
     background-color: lightblue;
+    position: relative;
+}
+
+.footer-banner {
+    width: 90%;
+    height: 90%;
+    background-color: blue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
 }
