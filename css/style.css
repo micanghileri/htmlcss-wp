@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
 }
 
 .clearfix::after {
@@ -11,7 +12,7 @@
 }
 
 body {
-    background-image: url("https://libreshot.com/wp-content/uploads/2019/10/old-wood-structure.jpg");
+    background-image: url("https://images.pexels.com/photos/3468869/pexels-photo-3468869.jpeg?cs=srgb&dl=pattern-green-minimal-minimalism-3468869.jpg&fm=jpg");
     background-color: white;
     background-position: center;
     background-repeat: no-repeat;
@@ -28,14 +29,14 @@ header {
 }
 
 .banner {
-    width: 70%;
+    width: 80%;
     height: 90%;
     background-color: white;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50% , -50%);
-    padding: 10px;
+    border: 10px solid white;
 }
 
 .immagine {
@@ -68,13 +69,30 @@ header {
     transform: translate(-50% , -50%);
 }
 
+.icona {
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+
+.testo i {
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+    margin: -6%;
+
+}
+
 .testo h1 {
     font-size: 60px;
     color: white;
     text-align: center;
     text-transform: uppercase;
-    border: 5px solid white;
-    padding: 7px 10px 7px 10px;
+    border: 8px solid white;
+    padding: 5px 8px 5px 8px;
+    font-family: 'Finger Paint', cursive;
 }
 
 .testo h3 {
