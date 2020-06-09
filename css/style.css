@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* barra titolo */
+
+header {
+    height: 200px;
+    background-color: red;
+}
+
+/* centro pagina */
+
+.container {
+    height: 500px;
+    margin: 15px;
+}
+
+aside {
+    width: 25%;
+    height: 200px;
+    background-color: lightgrey;
+    float: left;
+}
+
+main {
+    width: 50%;
+    height: 400px;
+    background-color: lightgreen;
+    float: left;
+}
+
+/* footer */
+
+footer {
+    height: 200px;
+    background-color: lightblue;
+}
